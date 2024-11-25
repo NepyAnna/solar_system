@@ -1,31 +1,49 @@
-# solar_system
-We need a program that models the concept of a planet in the Solar System.
+# Solar system
 
-A planet has the following attributes:
-A name of type String with an initial value of null.
-A number of satellites of type int with an initial value of zero.
-A mass in kilograms of type double with an initial value of zero.
-A volume in cubic kilometers of type double with an initial value of zero.
-A diameter in kilometers of type int with an initial value of zero.
-A mean distance from the Sun in millions of kilometers of type int with an initial value of zero.
-A type of planet according to its size, a type in a list with the following possible values: GAS, TERRESTRIAL, and DWARF.
-Appears at first glance, of type boolean with an initial value of false.
+The Planet Information System is a simple Java application that models planets and their attributes, offering detailed information about each planet, such as its mass, volume, density, orbital and rotational periods, and classification based on mass. It also categorizes planets as gas giants, terrestrial planets, or dwarf planets using realistic thresholds.
+The project demonstrates the use of object-oriented programming concepts, such as enums, encapsulation, and class relationships, to simulate planetary data in a modular and reusable way.
 
-The class should contain the following methods:
-The class should have a constructor that initializes the values ​​of its corresponding attributes.
-Define a method that returns the values ​​of the planet's attributes.
-Calculate the planet's density as the ratio of its mass to its volume.
-Determine whether a planet in the Solar System is considered an outer planet.
+# Features
 
-Beyond the asteroid belt lies an outer planet. The asteroid belt is located between 2.1 and 3.4 AU. An astronomical unit (AU) is the distance between the Earth and the Sun = 149597870 km.
-In the main method of the App class, you need to create two planets and print their attribute values. You also need to print the density of each planet and whether the planet is an outer planet in the Solar System.
-Extension:
-Add two attributes to the Planet class. The first attribute should represent the orbital period of the planet (in years). The second attribute should represent the rotation period (in days).
-Change the class constructor to initialize the values ​​of these two new attributes.
-Change the print method to print the values ​​of the new attributes on the screen.
-Requirements:
-The Planet class must be validated. (Minimum 70% coverage)
-Readme should display class diagram
-Workflow:
-Link to Github repository
-Screenshot of Visual Studio Code's Testing section where you can see test coverage
+- Planet Attributes:
+Name, number of satellites, mass, volume, diameter, and distance from the sun.
+Classification into Gas, Terrestrial, Dwarf, or Undefined based on mass.
+
+- Planet Categorization:
+Identifies whether a planet is an outer planet based on its distance from the sun.
+Calculates the density of the planet dynamically.
+
+- Realistic Data:
+Uses real-world data for Mars and Jupiter as examples.
+
+- Output:
+Detailed, well-formatted output for each planet.
+
+# Technologies Used
+
+Programming Language: Java
+
+Concepts:
+Object-Oriented Programming (OOP).
+Enums for planetary types.
+Dynamic calculations for density and classification.
+
+Tools:
+Java Development Kit (JDK).
+IDE: Visuai Studio Code.
+
+# Installation
+
+git clone https://github.com/
+
+
+# Class Diagram
+
+
+
+# Tests
+
+
+
+# Authors
+
