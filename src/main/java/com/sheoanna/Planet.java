@@ -14,16 +14,6 @@ public class Planet {
     private double orbitalPeriod = 0.00;
     private double rotationPeriod = 0.00;
 
-    public double getOrbitalPeriod() {
-        return orbitalPeriod;
-    }
-
-    public double getRotationPeriod() {
-        return rotationPeriod;
-    }
-
-    
-
     public Planet(String name, int sutelites, double mass, double volume, int diameter, Integer distance, boolean isObservable, double orbitalPeriod, double rotationPeriod) {
         this.nameOfPlanet = name;
         this.numberOfSutelites = sutelites;
@@ -107,5 +97,13 @@ public class Planet {
 
     public boolean getIsObservable() {
         return isObservable;
+    }
+
+    public double getOrbitalPeriod() {
+        return orbitalPeriod;
+    }
+
+    public double getRotationPeriod() {
+        return rotationPeriod;
     }
 }
