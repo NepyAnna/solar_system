@@ -41,7 +41,9 @@ public class PlanetTest {
 
     @Test
     void testGetIsOuterPlanet() {
-
+        assertEquals("This planet is not outer", planet.getIsOuterPlanet());
+        Planet outerPlanet = new Planet("Jupiter", 95, 1.898E27, 1.431E15, 139820, 778000000, false, 11.86, 9.93);
+        assertEquals("This planet is an outer", outerPlanet.getIsOuterPlanet()); 
     }
 
     @Test
