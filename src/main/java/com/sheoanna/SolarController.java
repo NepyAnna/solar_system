@@ -6,7 +6,7 @@ public class SolarController {
      
     public void densityOfThePlanet () {
         density = planet.getMass()/planet.getVolume();
-        planet.setDensity(density);
+        //planet.setDensity(density);
     }
 
     public String outerPlanet(Integer distance) {

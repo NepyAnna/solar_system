@@ -32,13 +32,21 @@ public class Planet {
         } else {
             return "This planet is not outer.";
         }
-
     }
 
     @Override
     public String toString() {
-        return "Planet name: " + this.getNameOfPlanet() + "\n" + "Number of Sutelites: " + this.getNumberOfSutelites() + "\n" + "Mass of the planet: " + this.getMass() + " kg\n" + "Volume of the planet: " + this.getVolume() + " m3\n" +
-        "Diameter of the planet: " + this.getDiameter() + " km\n" + "Distance of the planet: " + this.getDistance() + " km\n" + "Type of the planet: " + this.getType() + "Denisty of the planet: " + this.getDensity() + " kg/km3\n" + "Is outer planet: " + this.getIsOuterPlanet();
+        String result = "\nPlanet name: " + this.getNameOfPlanet() + "\n";
+        result += "Number of Sutelites: " + this.getNumberOfSutelites() + "\n";
+        result += "Mass of the planet: " + this.getMass() + " kg\n";
+        result += "Volume of the planet: " + this.getVolume() + " m3\n";
+        result += "Diameter of the planet: " + this.getDiameter() + " km\n";
+        result += "Distance of the planet: " + this.getDistance() + " km\n";
+        result += "Type of the planet: " + this.getType() + "\n";
+        result += "Denisty of the planet: " + this.getDensity() + " kg/km3\n";
+        result += "Is outer planet: " + this.getIsOuterPlanet() + "\n";
+
+        return result;
     }
 
     public String getIsOuterPlanet() {
