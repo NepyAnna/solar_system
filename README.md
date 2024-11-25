@@ -39,11 +39,12 @@ git clone https://github.com/
 
 # Class Diagram
 
-
+![Diagram](images/diagram_solar.png)
 
 # Tests
 
-
+![Test Coverage Screenshot](images/tests.png)
 
 # Authors
 
+NepyAnna [![NepyAnna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/NepyAnna)
