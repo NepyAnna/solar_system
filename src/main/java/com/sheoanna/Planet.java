@@ -21,9 +21,6 @@ public class Planet {
         this.type = PlanetType.UNDEFINED;
     }
 
-    public void densityOfThePlanet () {
-
-    }
     public String getNameOfPlanet() {
         return nameOfPlanet;
     }

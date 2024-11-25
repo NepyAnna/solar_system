@@ -8,7 +8,10 @@ public class SolarController {
         density = planet.getMass()/planet.getVolume();
     }
 
-    public void outerPlanet() {
+    public void outerPlanet(Integer distance) {
+        if (distance > 314155527 && distance < 508632758){
+            
+        }
 
     }
 }
