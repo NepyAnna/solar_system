@@ -7,11 +7,11 @@ public enum PlanetType {
     UNDEFINED;
 
     public static PlanetType fromMass(double size) {
-        if (size > 2000000) {
+        if (size > 1.0E26) {
             return GAS;
-        } else if (size > 1000000) {
+        } else if (size > 1.0E23) {
             return TERRESTRIAL;
-        } else if (size > 0) {
+        } else if (size > 1.0E21) {
             return DWARF;
         } else {
             return UNDEFINED;

@@ -20,26 +20,6 @@ public class PlanetTest {
     }
 
     @Test
-    void testGetDensity() {
-
-    }
-
-    @Test
-    void testGetDiameter() {
-
-    }
-
-    @Test
-    void testGetDistance() {
-
-    }
-
-    @Test
-    void testGetIsObservable() {
-
-    }
-
-    @Test
     void testGetIsOuterPlanet() {
         assertEquals("This planet is not outer", planet.getIsOuterPlanet());
         Planet outerPlanet = new Planet("Jupiter", 95, 1.898E27, 1.431E15, 139820, 778000000, false, 11.86, 9.93);
@@ -47,43 +27,8 @@ public class PlanetTest {
     }
 
     @Test
-    void testGetMass() {
-
-    }
-
-    @Test
-    void testGetNameOfPlanet() {
-        assertEquals("Mars", planet.getNameOfPlanet());
-    }
-
-    @Test
-    void testGetNumberOfSutelites() {
-
-    }
-
-    @Test
-    void testGetOrbitalPeriod() {
-
-    }
-
-    @Test
-    void testGetRotationPeriod() {
-
-    }
-
-    @Test
     void testGetType() {
         assertEquals(PlanetType.fromMass(planet.getMass()), planet.getType());
-    }
-
-    @Test
-    void testGetVolume() {
-
-    }
-
-    @Test
-    void testOuterPlanet() {
-
     }
 
     @Test

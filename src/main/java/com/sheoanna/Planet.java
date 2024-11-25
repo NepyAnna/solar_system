@@ -6,7 +6,7 @@ public class Planet {
     private double mass = 0.00;
     private double volume = 0.00;
     private int diameter = 0;
-    private Integer distance = 0;
+    private int distance = 0;
     private boolean isObservable = false;
     private PlanetType type = PlanetType.UNDEFINED;
     private double density;
@@ -14,7 +14,7 @@ public class Planet {
     private double orbitalPeriod = 0.00;
     private double rotationPeriod = 0.00;
 
-    public Planet(String name, int sutelites, double mass, double volume, int diameter, Integer distance, boolean isObservable, double orbitalPeriod, double rotationPeriod) {
+    public Planet(String name, int sutelites, double mass, double volume, int diameter, int distance, boolean isObservable, double orbitalPeriod, double rotationPeriod) {
         this.nameOfPlanet = name;
         this.numberOfSutelites = sutelites;
         this.mass = mass;
@@ -83,7 +83,7 @@ public class Planet {
         return diameter;
     }
 
-    public Integer getDistance() {
+    public int getDistance() {
         return distance;
     }
 
