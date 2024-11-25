@@ -16,6 +16,7 @@ The class should have a constructor that initializes the values ​​of its cor
 Define a method that returns the values ​​of the planet's attributes.
 Calculate the planet's density as the ratio of its mass to its volume.
 Determine whether a planet in the Solar System is considered an outer planet.
+
 Beyond the asteroid belt lies an outer planet. The asteroid belt is located between 2.1 and 3.4 AU. An astronomical unit (AU) is the distance between the Earth and the Sun = 149597870 km.
 In the main method of the App class, you need to create two planets and print their attribute values. You also need to print the density of each planet and whether the planet is an outer planet in the Solar System.
 Extension:
@@ -29,21 +30,7 @@ Workflow:
 Link to Github repository
 Screenshot of Visual Studio Code's Testing section where you can see test coverage
 
-Потрібна програма, яка моделює концепцію планети Сонячної системи.
 
-Планета має такі атрибути:
-Ім’я типу String із початковим значенням null.
-Кількість супутників типу int з початковим значенням нуль.
-Маса в кілограмах типу double з початковим значенням нуль.
-Об'єм у кубічних кілометрах типу double з початковим значенням нуль.
-Діаметр в кілометрах типу int з початковим значенням нуль.
-Середня відстань до Сонця в мільйонах кілометрів типу int з початковим значенням нуль.
-Тип планети відповідно до її розміру, тип у списку з такими можливими значеннями: ГАЗОВИЙ, ЗЕМНИЙ і КАРЛИКОВИЙ.
-Видно з першого погляду, типу boolean з початковим значенням false.
-
-
-Визначте, чи вважається планета Сонячної системи зовнішньою.
-За поясом астероїдів розташована зовнішня планета. Пояс астероїдів розташований між 2,1 і 3,4 а.о. Астрономічна одиниця (а.о.) — це відстань між Землею і Сонцем = 149597870 км.
 У основному методі класу App необхідно створити дві планети і вивести на екран значення їх атрибутів. Крім того, потрібно надрукувати щільність кожної планети та чи є планета зовнішньою планетою Сонячної системи.
 Розширення:
 Додайте два атрибути до класу Planet. Перший має представляти орбітальний період планети (у роках). Другий атрибут представляє період обертання (у днях).
